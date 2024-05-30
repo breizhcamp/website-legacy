@@ -109,10 +109,10 @@ unsafe= true
     url  = "/conference"
     weight = 2
 
-#[[params.menu]]
-#    name = "Programme"
-#    url  = "/conference/programme/"
-#    weight = 3
+[[params.menu]]
+    name = "Programme"
+    url  = "/conference/programme/"
+    weight = 3
 
 [[params.menu]]
     name = "Sponsors"

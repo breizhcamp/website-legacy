@@ -86,14 +86,15 @@
                     return result.concat(schedule);
                 }, []);
 
-                var roomOrder = ['Amphi A', 'Amphi B', 'Amphi C', 'Amphi D', 'Esp Lab', 'Hall'];
+                var roomOrder = ['Amphi A', 'Amphi B', 'Amphi C', 'Amphi D', 'Amphi E', 'Esp Lab', 'Hall'];
                 var rooms = {
                     'Amphi A': roomOrder[0],
                     'Amphi B': roomOrder[1],
                     'Amphi C': roomOrder[2],
                     'Amphi D': roomOrder[3],
-                    'Lab': roomOrder[4],
-                    'Hall': roomOrder[5]
+                    'Amphi E': roomOrder[4],
+                    'Lab': roomOrder[5],
+                    'Hall': roomOrder[6]
                 };
 
                 var doc = new PDFDocument({

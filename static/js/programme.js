@@ -26,7 +26,10 @@
                 'Web': '#2e9eb7',
                 'Mobile': '#ff99ff',
                 'Keynote': '#F55E52',
-                'Green': '#009900',
+                'IA': '#D5B900',
+                'Écoconception': '#8FC93A',
+                'DevOps': '#774E24',
+                'Sécurité': '#000000',
                 'Eat': '#00c96b',
                 'Autre...': '#AAAAAA'
             };
@@ -36,6 +39,7 @@
                 'Amphi B': 'Amphi B',
                 'Amphi C': 'Amphi C',
                 'Amphi D': 'Amphi D',
+                'Amphi E': 'Amphi E',
                 'Hall': 'Hall'
             };
 
