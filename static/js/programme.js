@@ -141,7 +141,7 @@
 
             var http_talks
                 = (PROGRAMME_CONFIG == null || PROGRAMME_CONFIG.get_talks_method === "static")
-                ? $http.get('/json/talks.json')
+                ? $http.get('/json/schedule.json')
                 : $http({
                         method: 'GET',
                         url: 'https://api.cfp.io/api/schedule',
