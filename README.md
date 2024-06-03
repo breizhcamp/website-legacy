@@ -1,29 +1,29 @@
 # Site Web BreizhCamp
 
-Ce site Web est généré avec [Hugo](https://gohugo.io/), _A Fast and Modern Static Website Engine_. La rapidité de génération est une des raisons du choix de cet excellent outil. Ce site est généré en quelques dizaines de millisecondes!
+Ce site Web est généré avec [Hugo](https://gohugo.io/), _A Fast and Modern Static Website Engine_. La rapidité de génération est une des raisons du choix de cet excellent outil. Ce site est généré en quelques dizaines de millisecondes !
 
 La majorité des contenus est écrit en Markdown ou sous forme de fichiers structurés YAML. Il est facile d'y contribuer directement depuis l'interface de GitHub.
 
-Amis du BreizhCamp, n'hésitez pas à proposer des PR si vous voulez améliorer ce site!
+Ami·es du BreizhCamp, n'hésitez pas à proposer des PR si vous voulez améliorer ce site!
 
 ## Développement
 
-A la racine se trouve un wrapper pour lancer Hugo, qui se chargera de télécharger le binaire Hugo s'il n'est pas disponible. Pour lancer localement le site:
+À la racine se trouve un wrapper pour lancer Hugo, qui se chargera de télécharger le binaire Hugo s'il n'est pas disponible. Pour lancer localement le site:
 
     ./hugow -w serve
 
-puis accéder à http://localhost:1313. Hugo activera le rechargement automatique des pages modifiées. Etant donné la vitesse de génération, les modifications effectuées dans les sources sont visibles en quasi-temps réel dans le navigateur Web.
+puis accéder à http://localhost:1313. Hugo activera le rechargement automatique des pages modifiées. Étant donnée la vitesse de génération, les modifications effectuées dans les sources sont visibles en quasi-temps réel dans le navigateur Web.
 
-### Passage à une nouvelle édition du breizhcamp
+### Passage à une nouvelle édition du BreizhCamp
 
 Voir la documentation sur le [wiki du BreizhCamp](https://breizhcamp.gitlab.io/all/wiki/infra/siteweb/)
 
-### Mise à jours des données
+### Mise à jour des données
 
 #### Liste des speakers
 
 1.  Dans le fichier `bin/getSpeakers.groovy`, remplacer `__TODO_TOKEN__` par votre token d'authentification.
-    **NE FAITES PAS UN COMMIT DE CE FICHIER AVEC VOTRE TOCKEN DEDANS !**
+    **NE FAITES PAS UN COMMIT DE CE FICHIER AVEC VOTRE TOKEN DEDANS !**
 1.  Lancer le script `bin/update-json-speakers.sh`
 1.  Faire un commit du fichier `data/speakers.json`
 
@@ -76,7 +76,7 @@ Le fichier `static/json/talks_others.json` est réservé aux talks "hors-CFP" (M
     # Comment acheter un billet ?
     
     ...
-    Si vous êtes intéressé pour venir au BreizhCamp cette année, inscrivez-vous au tirage au sort via
+    Si vous êtes intéressé·e pour venir au BreizhCamp cette année, inscrivez-vous au tirage au sort via
     [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSc3CbFbwKtGOCX7tbU4pXPg6LOOEB9xbp5LCpgfVlNiqFy8hg/viewform)
     avant le **31 mai minuit**.
     ```
@@ -99,7 +99,7 @@ Fichier `config.toml`, section `params.breizhcamp`, paramètre `programme_get_sp
 
 ## Organisation des branches
 
-Ce dépot possède 2 branches, `staging` et `production`. La branche `production` doit être alimentée par des merges depuis la branche `staging`.
+Ce dépot possède 2 branches, `staging` et `production`. La branche `production` doit être alimentée par des merge requests depuis la branche `staging`.
 
 ## Déploiement
 
@@ -110,6 +110,6 @@ Netlify permet de déployer automatiquement les branches principales de ce dép�
 
 # Dévelopment Web et Hugo
 
-Quelques liens pour les non professionels du CSS et de Hugo
+Quelques liens pour les non-professionels du CSS et de Hugo
 
 * http://cssreference.io/
