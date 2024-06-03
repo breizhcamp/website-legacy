@@ -71,11 +71,6 @@
                 }
             }
 
-            var PDFDocument = $window.PDFDocument;
-
-            var doc = new PDFDocument();
-            var stream = doc.pipe(blobStream());
-
             this.calendarConfig = {
                 defaultDate: defaultDate,
                 defaultView: 'agendaDay',
