@@ -169,18 +169,18 @@
                         return moment(a, timeFormat).isBefore(moment(b, timeFormat)) ? -1 : 1;
                     }).forEach(function (time) {
                         var slot = daySchedule[time];
-                        doc.font('Helvetica-Bold').fontSize(5).moveDown(0.5).text(time, 5, null, {
-                            width: 20,
+                        doc.font('Helvetica-Bold').fontSize(5).moveDown(0.5).text(time, 1, null, {
+                            width: 15,
                             align: 'right'
                         });
                         slot.forEach(function (event, index) {
                             if (!index) {
                                 doc.moveUp();
                             }
-                            doc.font('Helvetica-Oblique').fontSize(5).text(event.venue, 30, null);
+                            doc.font('Helvetica-Oblique').fontSize(5).text(event.venue, 20, null);
                             doc.moveUp(0.22)
-                            doc.font(emojiFontBuffer).text(event.name, 60, null, {
-                                width: a6Widht - 70,
+                            doc.font(emojiFontBuffer).text(event.name, 45, null, {
+                                width: a6Widht - 50,
                                 continued: true
                             });
                             var duration = moment.duration(event.event_end.diff(event.event_start)).asMinutes();
@@ -189,7 +189,6 @@
                                 speakerAndTime += (event.speakers.split(/, /).filter(Boolean).map(titleCase).join(', ') + ' – ');
                             }
                             speakerAndTime += (duration + ' min)');
-                            doc.moveDown(0.1)
                             doc.fontSize(5).fillColor('grey').text(speakerAndTime)
                             doc.moveDown(0.22)
                             doc.fillColor('black');
