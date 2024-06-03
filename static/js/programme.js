@@ -8,9 +8,9 @@
 
             var formatDefinitions = this.formatDefinitions = [
                 {format: 'Conférence', label: 'Conférence', icon: 'fa-slideshare'},
-                {format: 'Tool in Action', label: 'Tool in Action', icon: 'fa-wrench'},
+                {format: 'Tool in action', label: 'Tool in Action', icon: 'fa-wrench'},
                 {format: 'Université', label: 'Université', icon: 'fa-terminal'},
-                {format: 'Quickie', label: 'Quickie', icon: 'fa-clock-o'},
+                {format: 'Quicky', label: 'Quickie', icon: 'fa-clock-o'},
                 {format: 'Lab', label: 'Lab', icon: 'fa-flask'},
                 {format: 'Keynote', label: 'Keynote', icon: 'fa-user'},
                 {format: 'Party', label: 'Party', 'icon': 'fa-glass'},
