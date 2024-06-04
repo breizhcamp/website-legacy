@@ -71,11 +71,6 @@
                 }
             }
 
-            var PDFDocument = $window.PDFDocument;
-
-            var doc = new PDFDocument();
-            var stream = doc.pipe(blobStream());
-
             this.calendarConfig = {
                 defaultDate: defaultDate,
                 defaultView: 'agendaDay',
@@ -139,22 +134,8 @@
                 }, refresh);
             });
 
-            var http_talks
-                = (PROGRAMME_CONFIG == null || PROGRAMME_CONFIG.get_talks_method === "static")
-                ? $http.get('/json/schedule.json')
-                : $http({
-                        method: 'GET',
-                        url: 'https://api.cfp.io/api/schedule',
-                        headers: {
-                            'X-Tenant-Id': 'breizhcamp'
-                        }
-                    });
-
-            $q.all([
-                $http.get('/json/talks_others.json'),
-                http_talks
-            ]).then(function(responses) {
-                return [].concat(responses[0].data, responses[1].data);
+            $http.get('/json/schedule.json').then(function(response) {
+                return response.data
             }).then(function(talks) {
 
                 function activeFilters() {

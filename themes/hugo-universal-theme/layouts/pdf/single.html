@@ -52,17 +52,8 @@
                 }, '')
             }
 
-            var talksURL = (PROGRAMME_CONFIG == null || PROGRAMME_CONFIG.get_talks_method === "static")
-                ? '/json/talks.json'
-                : 'https://api.cfp.io/api/schedule';
-            var talksFetchParams = (PROGRAMME_CONFIG == null || PROGRAMME_CONFIG.get_talks_method === "static")
-                ? {}
-                : {
-                    headers: {
-                        'X-Tenant-Id': 'breizhcamp'
-                    }
-                };
-            Promise.all([fetch('/json/talks_others.json'), fetch(talksURL, talksFetchParams)].map(function (promise) {
+            var talksURL = '/json/schedule.json';
+            Promise.all([fetch(talksURL)].map(function (promise) {
                 return promise.then(function (response) {
                     return response.json().then(function (schedule) {
                         return schedule;
@@ -77,14 +68,11 @@
                 })
             }))).then(function (data) {
 
-                var schedules = data.slice(0, 2);
-                var backgroundBuffer = data[2];
-                var fontawesomeBuffer = data[3];
-                var emojiFontBuffer = data[4];
-                var dayFontBuffer = data[5];
-                var schedule = schedules.reduce(function (result, schedule) {
-                    return result.concat(schedule);
-                }, []);
+                var schedule = data[0].filter(({name}) => !['Pause café'].includes(name));
+                var backgroundBuffer = data[1];
+                var fontawesomeBuffer = data[2];
+                var emojiFontBuffer = data[3];
+                var dayFontBuffer = data[4];
 
                 var roomOrder = ['Amphi A', 'Amphi B', 'Amphi C', 'Amphi D', 'Amphi E', 'Esp Lab', 'Hall'];
                 var rooms = {

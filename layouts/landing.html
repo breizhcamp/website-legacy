@@ -105,7 +105,7 @@
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <p><b>Editions précédentes</b></p>
+                        <p><b>Éditions précédentes</b></p>
                         <p>
                             {{ range $index, $edition := sort .Site.Params.breizhcamp.previous_editions "value" "desc" }}
                             {{ if gt $index 0 }}, {{ end }}<a href="http://{{ $edition }}.breizhcamp.org">{{ $edition }}</a>
