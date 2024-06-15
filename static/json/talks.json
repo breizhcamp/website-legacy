@@ -980,18 +980,18 @@
   "description" : "Depuis le début de l'année, les annonces concernant les ordinateurs quantiques se multiplient. L'informatique quantique promet une puissance de calcul sans précédent, révolutionnant des domaines allant de la science des matériaux et de la découverte de médicaments à la modélisation financière et à la cryptographie. Mais qu'est-ce que l'informatique quantique et comment fonctionne-t-elle ? Cette conférence plonge dans le monde fascinant de la mécanique quantique pour dévoiler le fonctionnement interne des ordinateurs quantiques, en explorant des éléments tels que les qubits, les portes quantiques, les circuits quantiques, les algorithmes quantiques, les hardwares quantiques et en montrant comment nous pouvons simuler et exécuter un programme quantique !"
 }, {
   "id" : "662959",
-  "name" : "Révolutionner la CI/CD avec Dagger: Au-delà des Limites du YAML",
-  "event_start" : "2024-06-28T13:30:00",
-  "event_end" : "2024-06-28T14:30:00",
-  "event_type" : "DevOps",
+  "name" : "Comment intégrer au mieux une personne autiste en entreprise",
+  "event_start" : "2024-06-28T11:35:00",
+  "event_end" : "2024-06-28T12:30:00",
+  "event_type" : "Autre...",
   "format" : "Conférence",
-  "venue" : "Amphi B",
-  "venue_id" : "2",
-  "speakers" : "Dimitri Quenault",
+  "venue" : "Amphi E",
+  "venue_id" : "5",
+  "speakers" : "Angi Guyard",
   "video_url" : null,
   "files_url" : null,
   "slides_url" : null,
-  "description" : "La CI/CD, c'est vital, mais quelles sont les limites que l'on peut atteindre ? \r\nPremièrement une grosse usine de tests et de déploiement continu écrite en yaml cela devient vite ingérable et intestable.\r\nIl suffit de prendre des pipelines gitlab-ci avec des conditions, si telle partie de mon code est modifiée et pas une autre, ou alors, je désire effectuer des actions différentes sur mes branches de features ou sur ma branche main. \r\nComment je teste tout ça ? Je crée un commit poubelle en général (fix ci) puis un autre et encore un autre et ainsi de suite…\r\nEt j'attends que mon pipeline passe (ou pas) pour ensuite pouvoir valider mon pipeline. \r\nEt si je pouvais faire cela différemment ? Exécuter d'abord tout cela localement, de surcroît en écrivant mes pipelines dans le langage de mon choix et me limiter au minimum de yaml ?\r\nPour cela, voici Dagger, par Solomon Hykes (entre autres), le précurseur du meilleur outil permettant de gérer du conteneur, pour les développeurs, un paradigme qui va permettre de révolutionner nos pipelines de CI/CD."
+  "description" : "L'autisme, tout le monde croit savoir ce que c'est, beaucoup de mythes sont construits autour, et peu de personnes savent travailler avec, alors que les personnes autistes représentent 1% de la population.\n\nAujourd'hui, on casse les clichés, définissons l'autisme, récoltons quelques clefs pour le comprendre, l'identifier, réagir et accueillir une personne autiste dans vos équipes.\n\nOn va voir ensemble comment la mise en place quelques astuces pour rendre l'environnement moins agressif, et pour une meilleure inclusion des personnes issus de la neurodiversité, vous permettra d'évoluer dans un cadre plus bénéfique aussi pour vous."
 }, {
   "id" : "666547",
   "name" : "Stockage web : le guide galactique",
@@ -1275,12 +1275,12 @@
 }, {
   "id" : "663726",
   "name" : "Construire son framework d’entreprise au dessus de Spring boot",
-  "event_start" : "2024-06-28T11:30:00",
-  "event_end" : "2024-06-28T12:30:00",
+  "event_start" : "2024-06-28T13:30:00",
+  "event_end" : "2024-06-28T14:25:00",
   "event_type" : "Développement",
   "format" : "Conférence",
-  "venue" : "Amphi E",
-  "venue_id" : "5",
+  "venue" : "Amphi B",
+  "venue_id" : "2",
   "speakers" : "Maxime Odye, Alexandre Baron",
   "video_url" : null,
   "files_url" : null,
