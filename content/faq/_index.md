@@ -40,6 +40,14 @@ emprunter, au choix :
 
 Dans tous les cas, pensez simplement à descendre à l'arrêt __TOURNEBRIDE__ !
 
+# Le Breizhcamp est-il accessible aux personnes à mobilité réduite ?
+
+En résumé : oui. Des rampes permettent d'accéder aux amphis. 
+Six places sont réservées aux PMR dans la partie haute de chaque amphi.
+Une signalisation est faite à l'entrée de chaque amphi, les places réservées sont également balisées.
+
+Il existe aussi des rampes d'accès pour aller jusqu'à la scène si nécessaire.
+
 # Combien de temps dure le BreizhCamp ?
 
 Le BreizhCamp se déroule sur 3 jours :
