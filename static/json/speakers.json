@@ -669,6 +669,16 @@
   "twitter" : null,
   "social" : null
 }, {
+  "id" : "  a0a3e2ad-3d28-444a-b3e8-cee0a80aa682",
+  "lastname" : "Lours",
+  "firstname" : "Guillaume",
+  "imageProfilURL" : "https://sessionize.com/image/6ad2-200o200o2-fdeffc56-cd5f-4299-a804-7a6052dcbc1b.jpg",
+  "bio" : "Staff Software Engineer @docker, Compose Specification maintainer, working on Docker Compose and Dev Environments ",
+  "github" : null,
+  "googleplus" : null,
+  "twitter" : "@glours",
+  "social" : "https://www.linkedin.com/in/guillaumelours/"
+}, {
   "id" : "273cb4a3-233f-42e9-b82f-93c99aed09c3",
   "lastname" : "Lucas",
   "firstname" : "Damien",
