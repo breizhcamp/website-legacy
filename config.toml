@@ -77,15 +77,14 @@ unsafe= true
     url = "https://www.youtube.com/user/BreizhCamp"
 
 [[params.social_links]]
-    type = "flickr"
-    title = "flickr"
-    url = "https://www.flickr.com/photos/170850707@N06/"
-
-[[params.social_links]]
     type = "linkedin"
     title = "LinkedIn"
     url = "https://www.linkedin.com/in/breizhcamp-%F0%9F%92%BB-26991589/"
 
+[[params.social_links]]
+    type = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/breizhcamp"
 
 # [Permalinks]
 #     blog = "/blog/:year/:month/:day/:filename/"
@@ -140,7 +139,7 @@ unsafe= true
 #     weight = 11
 
 [[params.menu]]
-    name = "Equipe"
+    name = "Équipe"
     url  = "/team/"
     weight = 12
 

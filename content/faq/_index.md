@@ -75,7 +75,7 @@ Vous pouvez vous inscrire à la loterie de la billetterie sur https://billets.br
 Mais pour l'instant le système de billetterie __n'est pas encore ouvert__.
 -->
 
-Tenez-vous au courant sur nos réseaux [Twitter](https://twitter.com/breizhcamp) et [LinkedIn](https://www.linkedin.com/in/breizhcamp-%F0%9F%92%BB-26991589/).
+Tenez-vous au courant sur nos réseaux : [Twitter](https://twitter.com/breizhcamp), [Bluesky](https://bsky.app/profile/breizhcamp.bsky.social) et [LinkedIn](https://www.linkedin.com/in/breizhcamp-%F0%9F%92%BB-26991589/).
 
 Il n'est pas possible d'acheter des billets pendant l'événement.
 

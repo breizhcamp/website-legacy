@@ -76,7 +76,7 @@ items:
       - name: Luc Sorel-Giffo
         picture: /img/team/lucsorelgiffo.jpg
         link:
-          fa_icon: "mastodon-square"
+          fa_icon: "comment"
           label: "lucsorelgiffo"
           url: "https://floss.social/@lucsorelgiffo"
       - name: Nicolas Ledez

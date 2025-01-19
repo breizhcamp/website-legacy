@@ -16,7 +16,10 @@ items:
     twitter: MarcAudefroy
   - name: Guillaume Collic
     picture: /img/team/gcollic.png
-    twitter: gcollic
+    link:
+      fa_icon: "comment"
+      label: "gcollic"
+      url: "https://bsky.app/profile/gcollic.bsky.social"
   - name: Benoît Masson
     picture: /img/team/benoitmasson.png
     link:
@@ -47,7 +50,7 @@ items:
   - name: Luc Sorel-Giffo
     picture: /img/team/lucsorelgiffo.jpg
     link:
-      fa_icon: "mastodon-square"
+      fa_icon: "comment"
       label: "lucsorelgiffo"
       url: "https://floss.social/@lucsorelgiffo"
   - name: Etienne Besson
