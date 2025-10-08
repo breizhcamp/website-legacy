@@ -19,3 +19,18 @@
         });
     });
 })(document, window, $);
+
+
+/**
+ * @param {HTMLElement[]} elements
+ */
+function shuffleDomElements(elements) {
+    // Fisher–Yates shuffle
+    var i, j, temp;
+    for (i = elements.length - 1; i > 0; i--) {
+        j = Math.min(Math.round(Math.random() * i), i);
+        temp = elements[i].innerHTML;
+        elements[i].innerHTML = elements[j].innerHTML;
+        elements[j].innerHTML = temp;
+    }
+}

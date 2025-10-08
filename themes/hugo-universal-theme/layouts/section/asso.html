@@ -51,5 +51,16 @@
 
     {{ partial "scripts.html" . }}
 
+    <script>
+      jQuery(document).ready(function() {
+          shuffleDomElements(jQuery(".team-members-bureau .team-member"));
+          shuffleDomElements(jQuery(".team-members-bureau-old .team-member"));
+          /*
+          jQuery(".asso-usergroup").each(function (index, element) {
+              shuffleDomElements(jQuery(element).find(".team-members-orga .team-member"));
+          })
+          */
+      });
+    </script>
   </body>
 </html>
