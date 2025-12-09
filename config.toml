@@ -148,6 +148,11 @@ unsafe= true
     url  = "/asso/"
     weight = 13
 
+[[params.menu]]
+    name = "Coaching"
+    url  = "/coaching/"
+    weight = 14
+
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = false
