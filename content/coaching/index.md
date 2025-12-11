@@ -4,7 +4,7 @@ title = "Coaching"
 
 Le BreizhCamp vous propose du coaching pour vous aider à faire votre première présentation.
 
-Vous avez une idée de talk mais vous hésitez à vous lancer ? Vous n'êtes pas sûr·e de la structure de votre présentation ou de comment vous faire comprendre de votre audience ? Notre équipe de coaches expérimentés peut vous accompagner.
+Vous avez une idée de talk mais vous hésitez à vous lancer ? Vous n'êtes pas sûr·e de la structure de votre présentation ou de comment vous faire comprendre de votre audience ? Notre équipe expérimentée de coaching peut vous accompagner.
 
 Que vous soyez développeur·euse, ops, designer ou simplement passionné·e par un sujet tech, nous vous aidons à transformer votre connaissance en une présentation claire et efficace. Le coaching comprend des conseils sur la construction de votre plan, la création de slides, et des techniques pour gérer le trac.
 
