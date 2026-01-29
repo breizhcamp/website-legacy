@@ -10,6 +10,8 @@ cd "$PROJECT_ROOT"
 HUGO_VERSION=0.73.0
 
 install_hugo() {
+  # Clean up existing installation
+  rm -rf .hugo
   mkdir -p .hugo
   case "`uname`" in
   Darwin* )
@@ -26,13 +28,12 @@ install_hugo() {
     echo "Unable to install Hugo binary, exiting..."
     exit 1
   fi
+
+  # Write version to file for future checks
+  echo "$HUGO_VERSION" > .hugo/version
 }
 
-not_found=0
-HUGO=$(which hugo 2>/dev/null) || not_found=$?
-not_found=1
-if [[ $not_found -ne 0 ]]; then
-  case "`uname`" in
+case "`uname`" in
   Darwin*)
     HUGO=".hugo/hugo"
     ;;
@@ -42,9 +43,20 @@ if [[ $not_found -ne 0 ]]; then
   *)
     echo "No Unable to find Hugo binary, exiting..."
     exit 1
-  esac
+esac
 
-  [[ ! -x "$HUGO" ]] && install_hugo
+[[ ! -x "$HUGO" ]] && install_hugo
+
+# Check version from file instead of parsing 'hugo version' output which is inconsistent
+if [[ ! -f .hugo/version ]]; then
+  echo "Hugo version file not found, reinstalling..."
+  install_hugo
+else
+  ACTUAL_VERSION=$(cat .hugo/version)
+  if [[ "$ACTUAL_VERSION" != "$HUGO_VERSION" ]]; then
+    echo "Hugo version mismatch (found $ACTUAL_VERSION but expected $HUGO_VERSION), reinstalling..."
+    install_hugo
+  fi
 fi
 
 "$HUGO" "$@"

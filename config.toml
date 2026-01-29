@@ -1,5 +1,5 @@
 baseurl = "//www.breizhcamp.org/"
-title = "BreizhCamp - 13e édition - du 25 au 27 juin 2025"
+title = "BreizhCamp - 14e édition - du 24 au 26 juin 2026"
 theme = "hugo-universal-theme"
 languageCode = "fr"
 defaultContentLanguage = "fr"
@@ -43,7 +43,7 @@ unsafe= true
     # Enable the contact form by entering your Formspree.io email
     email = "contact@breizhcamp.org"
 
-    copyright = """<p>Copyright (c) 2015-2025, BreizhCamp team</p>
+    copyright = """<p>Copyright (c) 2015-2026, BreizhCamp team</p>
         <p><a href="https://github.com/breizhcamp/website">Améliorer ce site</a></p>
         """
     date_format = "2 January 2006"
@@ -56,13 +56,13 @@ unsafe= true
 
 
 [params.breizhcamp]
-    edition_number = "13"
-    edition_year = "2025"
-    edition_date_range = "25 au 27 juin"
-    edition_date_place = "25 au 27 juin à Rennes"
-    edition_date_start = "2025-06-25"
-    edition_date_end = "2025-06-27"
-    previous_editions = ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2022", "2023", "2024"]
+    edition_number = "14"
+    edition_year = "2026"
+    edition_date_range = "24 au 26 juin"
+    edition_date_place = "24 au 26 juin à Rennes"
+    edition_date_start = "2026-06-24"
+    edition_date_end = "2026-06-26"
+    previous_editions = ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2022", "2023", "2024", "2025"]
     programme_get_talks_method = "static"  # static | cfp_api
     programme_get_speakers_method = "static"  # static | cfp_api
 
@@ -89,24 +89,24 @@ unsafe= true
 # [Permalinks]
 #     blog = "/blog/:year/:month/:day/:filename/"
 
-#[[params.menu]]
-#   name = "CFP"
-#   url  = "https://sessionize.com/breizhcamp-2025/"
-#   target = "_blank"
-#   image= "/img/cfp-icon-64.png"
-#   label= '<span class="label label-success">Ouvert</span>'
-#   label= '<i class="note fa fa-times-circle text-muted" title="Clos"></i>'
-#   weight = 1
-
 [[params.menu]]
-    name = "Billets"
-    url  = "https://www.billetweb.fr/breizhcamp-2025"
+   name = "CFP"
+   url  = "https://sessionize.com/breizhcamp-2026/"
+   target = "_blank"
+   image= "/img/cfp-icon-64.png"
+   label= '<span class="label label-success">Ouvert</span>'
+#   label= '<i class="note fa fa-times-circle text-muted" title="Clos"></i>'
+   weight = 1
+
+#[[params.menu]]
+#    name = "Billets"
+#    url  = "https://www.billetweb.fr/breizhcamp-2025"
 #    target = "_blank"
-    label= '<i class="note fa fa-times-circle text-muted" title="Billetterie fermée"></i>'
+#    label= '<i class="note fa fa-times-circle text-muted" title="Billetterie fermée"></i>'
 #    label= '<i class="note fa fa-check-circle text-success" title="Billetterie ouverte"></i>'
 #    label= '<i class="note fa fa-check-circle text-success" title="Billetterie avec tirage au sort : inscriptions ouvertes"></i>'
 #    label= '<i class="note fa fa-times-circle text-muted" title="Billetterie avec tirage au sort : inscriptions closes"></i>'
-    weight = 1
+#    weight = 1
 
 [[params.menu]]
     name = "Conférence"
@@ -180,7 +180,7 @@ unsafe= true
     # For more informtion take a look at the README.
     title = "La conférence à l'ouest"
     subtitle = """Le BreizhCamp, c'est 3 jours de conférence à Rennes.
-    Créé en 2011 à l’initiative du BreizhJUG, nous sommes en cours de planification de la 13e édition.
+    Créé en 2011 à l’initiative du BreizhJUG, nous sommes en cours de planification de la 14e édition.
     Le BreizhCamp propose de se faire rencontrer les communauté du développement et de l’expertise, avec un contenu à la carte sur plus de 100 thèmes présentés.
     Chaque personne participante est libre de suivre les sujets qui ont retenu son attention ou de préférer les ateliers pour mettre en pratique les connaissances acquises.
     """
@@ -219,7 +219,7 @@ unsafe= true
     # Lister les sponsors
     show_list = true
     # Afficher les sponsors ou seulement des vignettes anonymes
-    visible = true
+    visible = false
     anon_nbr_platinum = 6
     anon_nbr_gold = 15
     anon_nbr_silver = 18
