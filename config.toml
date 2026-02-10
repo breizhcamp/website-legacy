@@ -1,4 +1,4 @@
-baseurl = "//www.breizhcamp.org/"
+baseurl = "//2019.breizhcamp.org/"
 title = "BreizhCamp - 9ème édition - 20, 21 et 22 Mars 2019"
 theme = "hugo-universal-theme"
 languageCode = "fr"
@@ -51,7 +51,7 @@ paginate = 10
     edition_date_place = "20, 21 et 22 Mars à Rennes"
     edition_date_start = "2019-03-20"
     edition_date_end = "2019-03-22"
-    previous_editions = ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"]
+    previous_editions = ["2013", "2014", "2015", "2016", "2017", "2018"]
     programme_get_talks_method = "static"  # static | cfp_api
     programme_get_speakers_method = "static"  # static | cfp_api
 
@@ -88,11 +88,11 @@ paginate = 10
     url  = "/conference"
     weight = 2
 
-[[params.menu]]
-    name = "Billetterie"
-    url  = "https://www.billetweb.fr/breizhcamp-2019"
-    target = "_blank"
-    weight = 2
+#[[params.menu]]
+#    name = "Billetterie"
+#    url  = "https://www.billetweb.fr/breizhcamp-2019"
+#    target = "_blank"
+#    weight = 2
 
 [[params.menu]]
     name = "Programme"
