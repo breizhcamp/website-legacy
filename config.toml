@@ -1,4 +1,4 @@
-baseurl = "http://www-staging.breizhcamp.org/"
+baseurl = "//2018.breizhcamp.org/"
 title = "BreizhCamp - 8ème édition - 28, 29 et 30 Mars 2018"
 theme = "hugo-universal-theme"
 languageCode = "fr"
@@ -34,7 +34,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "contact@breizhcamp.org"
 
-    copyright = """<p>Copyright (c) 2017, BreizhCamp team</p>
+    copyright = """<p>Copyright (c) 2015-2018, BreizhCamp team</p>
         <p><a href="https://github.com/breizhcamp/website">Améliorer ce site</a></p>
         """
     date_format = "2 January 2006"
@@ -51,18 +51,13 @@ paginate = 10
     edition_date_place = "28, 29 et 30 Mars à Rennes"
     edition_date_start = "2018-03-28"
     edition_date_end = "2018-03-30"
-    previous_editions = ["2011", "2012", "2013", "2014", "2015", "2016", "2017"]
+    previous_editions = ["2013", "2014", "2015", "2016", "2017"]
     programme_get_talks_method = "static"  # static | cfp_api
 
 [[params.social_links]]
     type = "twitter"
     title = "Twitter"
     url = "https://twitter.com/breizhcamp"
-
-[[params.social_links]]
-    type = "googleplus"
-    title = "Google Plus"
-    url = "https://plus.google.com/103143580610870538195"
 
 [[params.social_links]]
     type = "youtube"
