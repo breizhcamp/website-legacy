@@ -1,4 +1,4 @@
-baseurl = "//www.breizhcamp.org/"
+baseurl = "//2023.breizhcamp.org/"
 title = "BreizhCamp - 11ème édition - du 28 au 30 juin 2023"
 theme = "hugo-universal-theme"
 languageCode = "fr"
@@ -62,7 +62,7 @@ unsafe= true
     edition_date_place = "28 au 30 juin à Rennes"
     edition_date_start = "2023-06-28"
     edition_date_end = "2023-06-30"
-    previous_editions = ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2022"]
+    previous_editions = ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2022"]
     programme_get_talks_method = "static"  # static | cfp_api
     programme_get_speakers_method = "static"  # static | cfp_api
 
