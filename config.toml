@@ -1,4 +1,4 @@
-baseurl = "//www.breizhcamp.org/"
+baseurl = "//2022.breizhcamp.org/"
 title = "BreizhCamp - 10ème édition - du 29 Juin au 1er Juillet 2022"
 theme = "hugo-universal-theme"
 languageCode = "fr"
@@ -62,7 +62,7 @@ unsafe= true
     edition_date_place = "29 Juin au 1er Juillet à Rennes"
     edition_date_start = "2022-06-29"
     edition_date_end = "2022-07-01"
-    previous_editions = ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"]
+    previous_editions = ["2013", "2014", "2015", "2016", "2017", "2018", "2019"]
     programme_get_talks_method = "static"  # static | cfp_api
     programme_get_speakers_method = "static"  # static | cfp_api
 
