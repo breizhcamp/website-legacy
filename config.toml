@@ -1,4 +1,4 @@
-baseurl = "http://www-staging.breizhcamp.org/"
+baseurl = "//2017.breizhcamp.org/"
 title = "BreizhCamp - 7ème édition"
 theme = "hugo-universal-theme"
 languageCode = "fr-FR"
@@ -30,7 +30,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "contact@breizhcamp.org"
 
-    copyright = "Copyright (c) 2017, BreizhCamp team"
+    copyright = "Copyright (c) 2015-2017, BreizhCamp team"
     date_format = "2006-01-02"
     logo = "img/logo.png"
 
