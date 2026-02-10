@@ -7,6 +7,7 @@ PROJECT_ROOT="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 cd "$PROJECT_ROOT"
 
 HUGO_VERSION=0.31
+USE_LOCAL_SYSTEM_HUGO_BIN_IF_EXISTS=0
 
 install_hugo() {
   mkdir -p .hugo
@@ -29,7 +30,7 @@ install_hugo() {
 
 not_found=0
 HUGO=$(which hugo 2>/dev/null) || not_found=$?
-if [[ $not_found -ne 0 ]]; then
+if [ $not_found -ne 0 -o $USE_LOCAL_SYSTEM_HUGO_BIN_IF_EXISTS -eq 0 ]; then
   case "`uname`" in
   Darwin*)
     HUGO=".hugo/hugo"
